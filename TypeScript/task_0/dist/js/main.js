@@ -34,3 +34,4 @@ for (var i = 0; i < studentsList.length; i++) {
         tr.appendChild(td);
     }
 }
+//# sourceMappingURL=main.js.map
