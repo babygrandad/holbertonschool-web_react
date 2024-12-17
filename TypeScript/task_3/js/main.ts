@@ -9,14 +9,14 @@ const row: RowElement = {
 };
 
 const newRowID: RowID = CRUD.insertRow(row);
-const updatedRow: RowElement = { firstName: 'Guillaume', lastName: 'Salva', age: 23 };
-CRUD.updateRow(newRowID, updatedRow);
+const updatedRow1: RowElement = { firstName: 'Guillaume', lastName: 'Salva', age: 23 };
+CRUD.updateRow(newRowID, updatedRow1);
 CRUD.deleteRow(newRowID);
 
 const obj = {firstName: 'Guillaume', lastName: 'Salva'};
 CRUD.insertRow(obj)
 
-const updatedRow: RowElement = { firstName: 'Guillaume', lastName: 'Salva', age: 23 };
-CRUD.updateRow(newRowID, updatedRow);
+const updatedRow2: RowElement = { firstName: 'Guillaume', lastName: 'Salva', age: 23 };
+CRUD.updateRow(newRowID, updatedRow2);
 
 CRUD.deleteRow(125);
